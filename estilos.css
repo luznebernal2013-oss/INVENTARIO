@@ -32,3 +32,46 @@ th {
 .disponible { 
     background-color: #d4edda; } /* Verde claro */
 
+#resumen {
+ margin-top: 20px;
+ padding: 12px;
+ background-color: #e9ecef;
+ border-radius: 8px;
+}
+
+.destacado {
+ outline: 3px solid #0d6efd;
+
+}
+
+.btn {
+ width: 28px;
+ height: 28px;
+ border: none;
+ border-radius: 6px;
+ color: white;
+ font-size: 16px;
+ font-weight: bold;
+ cursor: pointer;
+
+}
+
+.btn-menos { background-color: #dc3545; }
+.btn-mas { background-color: #28a745; }
+
+.btn:disabled {
+background-color: #adb5bd;
+cursor: not-allowed;
+
+}
+
+.numero {
+ display: inline-block;
+ min-width: 30px;
+ text-align: center;
+ font-weight: bold;
+ 
+}
+
+
+
